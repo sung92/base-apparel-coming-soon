@@ -1,0 +1,11 @@
+@use "../abstracts/functions" as f;
+
+header {
+    padding: 0 f.rem(30px) f.rem(40px) f.rem(30px);
+}
+
+@media (width >= 40em) {
+    header img {
+        width: f.rem(250px);
+    }
+  }
